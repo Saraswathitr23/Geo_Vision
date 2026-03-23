@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# ML models (VERY IMPORTANT)
+*.h5
+*.pt
+*.pth
+*.pkl
+
+GEOPOVERTY FINAL CODE/backend/models/
+# Database
+*.db
+*.sqlite3
+
+# Uploads
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Build
+build/
+*.local
